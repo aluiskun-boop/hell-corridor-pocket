@@ -1,5 +1,5 @@
-const CACHE='hell-corridor-v5-2';
-const CORE=['./hell_corridor_iv.html','./manifest.webmanifest','./app-icon.svg','./demon_sprites.png','./environment_atlas.png','./equipment_sprites.png','./effects_pickups_atlas.png','./infernal_reign_theme.mp3'];
+const CACHE='hell-corridor-v5-4';
+const CORE=['./hell_corridor_iv.html','./manifest.webmanifest','./app-icon.svg','./demon_sprites.png','./environment_atlas.png','./equipment_sprites.png','./effects_pickups_atlas.png','./chainsaw_sprite.png','./infernal_reign_theme.mp3'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
