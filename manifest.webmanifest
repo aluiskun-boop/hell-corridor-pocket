@@ -1,0 +1,15 @@
+{
+  "name": "Hell Corridor IV: Infernal Reign",
+  "short_name": "Hell Corridor IV",
+  "description": "A mobile infernal corridor shooter.",
+  "id": "./hell_corridor_iv.html",
+  "start_url": "./hell_corridor_iv.html?app=1",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#020202",
+  "theme_color": "#070203",
+  "icons": [
+    {"src":"app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
