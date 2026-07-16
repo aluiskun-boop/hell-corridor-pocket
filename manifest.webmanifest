@@ -1,7 +1,7 @@
 {
-  "name": "Hell Corridor IV: Infernal Reign",
-  "short_name": "Hell Corridor IV",
-  "description": "A mobile infernal corridor shooter.",
+  "name": "Hell Corridor V: Blood Dominion",
+  "short_name": "Hell Corridor V",
+  "description": "A replayable mobile infernal shooter with missions, upgrades, secrets, and reactive enemies.",
   "id": "./hell_corridor_iv.html",
   "start_url": "./hell_corridor_iv.html?app=1",
   "scope": "./",
